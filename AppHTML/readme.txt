@@ -1,0 +1,1 @@
+URL: https://www.usatoday.com/story/tech/2021/09/15/microsoft-option-no-password-accounts/8346212002/
