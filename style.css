@@ -1,0 +1,160 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li{
+    display: inline;
+}
+.socialnetworks img{
+    width: 20px;
+}
+.socialnetworks {
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background-color: black;
+}
+#site-img{
+    width: 700px;
+    margin-left: 200px;
+}
+.navbar{
+    background-color: black;
+    font-family: futura-pt-bold,sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.4em;  
+    word-spacing: 0.4em;  
+}
+.navbar ul{
+    margin-left: 100px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+#search-box img{
+    width: 20px;
+    margin-left: 500px;
+}
+.section1{
+    background-image:url("/assets/img/rhcp1.jpg");
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: inherit;
+}
+.section1 a{
+    color: white;
+    text-decoration: none;
+}
+.section1 h1, p{
+    margin-left: 100px;
+    position: relative;
+    top: 400px;
+    width: 900px;
+}
+.section2{
+    margin-left: 200px;
+    margin-top: 700px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: inherit;
+    text-transform: none;
+    font-size: 15px;
+    line-height: 1.65em;
+}
+.section2 figcaption{
+    font-family: futura-pt,sans-serif;
+    letter-spacing: inherit;
+    text-transform: none;
+    font-size: 15.6px;
+    color: #333;
+    font-style: italic!important;
+    line-height: 1.3em;
+    opacity: .7;
+    padding: 10px 10px 0 10px;
+    position: static;
+}
+.section2 p{
+    position: relative;
+    top: 10px;
+    margin-left: 0;
+    width: 700px;
+}
+.section2 hr{
+    margin-left: 0;
+    width: 700px;
+}
+#mag-img{
+    vertical-align: text-top;
+}
+#by-bass{
+    color: black;
+    text-decoration: none;
+}
+button {
+    background-color:black;
+    border:black;
+    font-weight: bold;
+    color: lightblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 50%;
+}
+button a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+footer img{
+    width: 200px;
+    margin-left: 200px;
+}
+footer ul{
+    text-align: right;
+    margin-right: 50px;
+    
+}
+footer li a{
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    font-family: futura-pt,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: inherit;
+    text-transform: none;
+    font-size: 15.6px;
+    line-height: 1.4em;
+
+}
+footer li a:link{
+    color: black;
+}
+footer li a:visited{
+    color: red;
+}
+footer p{
+    text-align: right;
+    position: relative;
+    top: 50px
+}
