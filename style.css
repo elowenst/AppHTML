@@ -13,10 +13,10 @@ li{
 .socialnetworks img{
     width: 20px;
 }
-.socialnetworks {
-    background-color: black;
+.socialnetworks {   
     margin: 0%;
     padding: 0%;
+    background-color: black;
 }
 .header{
     background-color: black;
@@ -47,11 +47,12 @@ li{
     margin-left: 500px;
 }
 .section1{
-    background-image:url("/assets/img/rhcp1.jpg");
+    
     position: absolute;
-    background-size: cover;
     width: 100%;
     height: 100%;
+    background-image:url("/assets/img/rhcp1.jpg");
+    background-size: cover;
     color: white;
     font-family: sans-serif;
     font-style: normal;
@@ -63,12 +64,13 @@ li{
     text-decoration: none;
 }
 .section1 h1, p{
-    margin-left: 100px;
     position: relative;
+    margin-left: 100px;
     top: 400px;
     width: 900px;
 }
 .section2{
+    position: relative;
     margin-left: 200px;
     margin-top: 700px;
     font-family: sans-serif;
@@ -78,9 +80,9 @@ li{
     text-transform: none;
     font-size: 15px;
     line-height: 1.65em;
-    position: relative;
 }
 .section2 figcaption{
+    position: static;
     font-family: futura-pt,sans-serif;
     letter-spacing: inherit;
     text-transform: none;
@@ -90,7 +92,6 @@ li{
     line-height: 1.3em;
     opacity: .7;
     padding: 10px 10px 0 10px;
-    position: static;
 }
 .section2 p{
     position: relative;
@@ -110,6 +111,7 @@ li{
     text-decoration: none;
 }
 button {
+    display: inline-block;
     background-color:black;
     border:black;
     font-weight: bold;
@@ -117,7 +119,6 @@ button {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin-left: 50%;
 }
@@ -133,12 +134,11 @@ footer img{
 footer ul{
     text-align: right;
     margin-right: 50px;
-    
 }
 footer li a{
+    display: inline-block;
     text-decoration: none;
     color:black;
-    display: inline-block;
     font-family: futura-pt,sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -146,7 +146,6 @@ footer li a{
     text-transform: none;
     font-size: 15.6px;
     line-height: 1.4em;
-
 }
 footer li a:link{
     color: black;
@@ -158,15 +157,4 @@ footer p{
     text-align: right;
     position: relative;
     top: 50px
-}
-.section3{
-    margin-left: 100px;
-    margin-top: 50px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: inherit;
-    text-transform: none;
-    font-size: 15px;
-    line-height: 1.65em;
 }
