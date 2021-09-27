@@ -78,6 +78,7 @@ li{
     text-transform: none;
     font-size: 15px;
     line-height: 1.65em;
+    position: relative;
 }
 .section2 figcaption{
     font-family: futura-pt,sans-serif;
@@ -157,4 +158,16 @@ footer p{
     text-align: right;
     position: relative;
     top: 50px
+}
+.section3{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: inherit;
+    text-transform: none;
+    font-size: 15px;
+    line-height: 1.65em;
+
 }
